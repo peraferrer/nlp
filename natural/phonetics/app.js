@@ -4,7 +4,7 @@
 
 var colors = require('colors');
 var natural = require('natural');
-var phonetic = natural.Metaphone;
+var phonetic = natural.Metaphone; // Tambien podemos utilizar natural.SoundEx, pero no se comporta exactamente del mismo modo.
 
 phonetic.attach();
 
