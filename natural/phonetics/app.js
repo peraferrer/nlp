@@ -6,6 +6,7 @@ var colors = require('colors');
 var natural = require('natural');
 var phonetic = natural.Metaphone; // Tambien podemos utilizar natural.SoundEx, pero no se comporta exactamente del mismo modo.
 
+// Agrega el metodo stem a un String
 phonetic.attach();
 
 var wordA = 'phonetics';
