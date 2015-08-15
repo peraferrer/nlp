@@ -6,5 +6,5 @@ var natural = require('natural'),
     classifier = new natural.BayesClassifier();
 
 natural.BayesClassifier.load('classifier.json', null, function(err, classifier) {
-    console.log(classifier.classify('Puto amor'));
+    console.log(classifier.classify('mierda de color negro'));
 });
