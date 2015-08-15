@@ -1,0 +1,74 @@
+{
+    "classifier": {
+        "classFeatures": {
+            "romantico": {
+                "0": 2,
+                "1": 2
+            },
+            "grosero": {
+                "2": 2,
+                "3": 2
+            },
+            "romantico grosero": {
+                "0": 2,
+                "2": 2
+            },
+            "misojeno": {
+                "4": 2,
+                "5": 2
+            }
+        },
+        "classTotals": {
+            "romantico": 2,
+            "grosero": 2,
+            "romantico grosero": 2,
+            "misojeno": 2
+        },
+        "totalExamples": 5,
+        "smoothing": 1
+    },
+    "docs": [
+        {
+            "label": "romantico",
+            "text": [
+                "amor",
+                "corazon"
+            ]
+        },
+        {
+            "label": "grosero",
+            "text": [
+                "puto",
+                "boludo"
+            ]
+        },
+        {
+            "label": "romantico grosero",
+            "text": [
+                "puto",
+                "amor"
+            ]
+        },
+        {
+            "label": "misojeno",
+            "text": [
+                "matar",
+                "mierda"
+            ]
+        }
+    ],
+    "features": {
+        "amor": 1,
+        "corazon": 1,
+        "puto": 1,
+        "boludo": 1,
+        "matar": 1,
+        "mierda": 1
+    },
+    "stemmer": {},
+    "lastAdded": 4,
+    "events": {
+        "domain": null,
+        "_events": {}
+    }
+}
