@@ -14,6 +14,7 @@
     "sentiment": "^1.0.2",
     "sentiment-spanish": "0.0.8",
     "speakeasy-nlp": "^0.2.2",
+    "sync-request": "^2.0.1",
     "twit": "^2.1.0",
     "underscore": "^1.8.3"
   },
